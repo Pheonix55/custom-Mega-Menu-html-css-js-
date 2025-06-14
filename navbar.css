@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.navbar_nav {
+    transition: background-color 0.3s ease;
+    background-color: transparent;
+}
+
+.navbar_nav.scrolled {
+    background-color: var(--background);
+    box-shadow: var(--shadow-md);
+}
+
+.navbar_general {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 2px 10px rgba(60, 64, 67, 0.1);
+    z-index: 1000;
+    width: 100%;
+    background-color: var(--color-bg);
+}
+
+.navbar_general .navbar_nav {
+    width: 100vw;
+}
+
+.navbar_general .navbar_nav .custom_navbar {
+    padding-block: 10px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    width: 100%;
+    gap: 3rem;
+}
+
+.navbar_general .navbar_nav .custom_navbar .custom_nav_item a {
+    color: var(--color-text);
+    position: relative;
+    font-weight: 500;
+}
+
+.custom_nav_link::after {
+    content: "";
+    position: relative;
+    display: block;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: var(--color-accent);
+    transition: width 0.3s ease-in-out;
+}
+
+.custom_nav_link:hover {
+    cursor: pointer;
+}
+
+.custom_nav_link:hover::after,
+.custom_nav_link.active::after {
+    width: 100%;
+}
+
+.content_wrraper {
+    padding-top: 100px;
+    background-color: var(--color-bg-alt);
+    color: var(--color-text);
+}

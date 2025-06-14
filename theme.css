@@ -1,0 +1,32 @@
+:root {
+    /* Primary theme */
+    --color-primary: #ff3366;
+    /* Vibrant Pink */
+    --color-primary-hover: #e62e5c;
+
+    /* Accent (can be used for buttons/badges/hover) */
+    --color-accent: #33ccff;
+    /* Bright Sky Blue */
+
+    /* Backgrounds */
+    --color-bg: #1e1e2f;
+    /* Deep Navy */
+    --color-bg-alt: #2a2a40;
+    /* Lighter Navy for sections */
+
+    /* Text */
+    --color-text: #f8f8f8;
+    /* Almost White */
+    --color-text-muted: #b3b3c6;
+    /* Muted Light Gray-Blue */
+    --color-link: #33ccff;
+    /* Same as accent */
+    --color-link-hover: #1ab2e6;
+    /* Slightly darker blue */
+
+    /* Borders & Dividers */
+    --color-border: #3e3e55;
+
+    /* Shadows */
+    --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
