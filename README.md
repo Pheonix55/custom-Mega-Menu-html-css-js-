@@ -4,7 +4,7 @@ An interactive and modern mega menu built with HTML, CSS, and JavaScript. This p
 
 ## 🌐 Live Demo
 
-> Coming soon – deploy on GitHub Pages or Netlify for a live preview.
+> Coming soon.
 
 ---
 
