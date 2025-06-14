@@ -15,7 +15,7 @@ An interactive and modern mega menu built with HTML, CSS, and JavaScript. This p
 - 🎨 Vibrant, theme-based color palette
 - 🖱️ Hover-based interactions with smooth transitions
 - 🧠 Simple and scalable HTML structure
-- 💻 Fully responsive layout (desktop focus, mobile optimizable)
+- 💻 Not responsive yet.(will make it responssive in future)
 - 💡 Easy to extend and customize
 
 ---
